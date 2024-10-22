@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" a python module to loop 10 times """
+""" python module to loop 10 times """
 import random
 import asyncio
 from typing import Generator
@@ -7,8 +7,8 @@ from typing import Generator
 
 async def async_generator() -> Generator[float, None, None]:
     """
-    async_generator - function to loop 10 times
-    Arguments:
+    async_generator
+    Args:
         no arguments
     Returns:
         nothing
