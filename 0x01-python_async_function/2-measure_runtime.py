@@ -8,7 +8,6 @@ wait_n = __import__('1-concurrent_coroutines').wait_n
 def measure_time(n: int, max_delay: int) -> float:
     """
     Measures and returns the total execution time of a function
-    that launches n coroutines, each waiting up to max_delay seconds.
     Args:
         n: no ofcoroutines to launch
         max_delay: wait time for each coroutine
