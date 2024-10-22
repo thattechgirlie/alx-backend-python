@@ -9,6 +9,10 @@ def measure_time(n: int, max_delay: int) -> float:
     """
     Measures and returns the total execution time of a function
     that launches n coroutines, each waiting up to max_delay seconds.
+    Args:
+        n: no ofcoroutines to launch
+        max_delay: wait time for each coroutine
+    Returns: time elapsed in seconds
     """
     start = perf_counter()
     asyncio.run(wait_n(n, max_delay))
